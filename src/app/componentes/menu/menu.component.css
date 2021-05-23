@@ -1,0 +1,35 @@
+.contenedor-lista{
+    background-color: chocolate;
+}
+
+.lista-menu{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 15px;
+}
+
+.lista-menu li{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.lista ul{
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .lista-menu{
+        width: 70%;
+        font-size: 14px;
+    }
+    .contenedor-lista{
+        width: 100%;
+    }
+    .fas, .far{
+        display: none;
+    }
+}
