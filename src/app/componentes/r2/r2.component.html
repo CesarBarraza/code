@@ -1,0 +1,20 @@
+<div class="container">
+    <table class="tabla">
+        <tr>
+            <th>NOMBRE</th>
+            <th>APELLIDO</th>
+            <th>DIRECCION</th>
+            <th>CIUDAD</th>
+            <th>PAIS</th>
+            <th>EMAIL</th>
+        </tr>     
+        <tr *ngFor="let d of datos">
+            <td>{{d.nombre}}</td>
+            <td>{{ d.apellido}}</td>
+            <td>{{ d.direccion}}</td>
+            <td>{{ d.localidad}}</td>
+            <td>{{ d.pais}}</td>
+            <td>{{ d.email}}</td>
+        </tr>
+    </table>
+</div>

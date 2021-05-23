@@ -1,0 +1,23 @@
+.tabla {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+
+td, th {
+    border: #000 1px solid;
+    height: 50px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: hsl(180, 10%, 41%);
+}
+
+@media (max-width: 992px){
+    .tabla{
+        font-size: 11px;
+    }
+}
+
