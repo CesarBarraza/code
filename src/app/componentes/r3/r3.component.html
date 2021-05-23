@@ -2,24 +2,20 @@
     <div class="logo">
         <img src="assets/img/logo.png" alt="">
     </div>
-    <div class="container prueba" id="mostrar-cerrar">
-        <button  (click)="cerrarVideo()">X</button>Cerrar
+    <div class="container modal" id="mostrar-cerrar">
+        <button  (click)="cerrarVideo()"><i class="far fa-window-close"></i></button>Cerrar
         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mDPi67e5ayE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="contenedor-video">
-        <div class="video" (click)="abrirVideo()">
-            <!--i class="far fa-play-circle" style="width: 70px; height: 70px;"></i>-->    
-            <img src="assets/img/gnr.jpg" alt="">
+    <div class="grid">
+        <div class="imagenes">
+            <div class="img-2" (click)="abrirVideo()">
+             <img src="../../../assets/img/play.png" alt="">   
+            </div>    
         </div>
-        <div class="descripcion">
-            <div class="titulo">
-                <h2>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Eum, mollitia!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur adipisci voluptas, labore vel fugiat. Veritatis tempora sint aliquam tempore quos dolorem. Cupiditate illo neque facilis molestiae deserunt magnam veniam?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci labore voluptate praesentium possimus consequatur ratione aut quisquam sint sapiente nisi sequi, repudiandae aspernatur mollitia. Similique minima animi quisquam nulla dicta.</p>
-            </div>
+        <div class="discripcion-video">
+            <h2>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Eum, mollitia!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam pariatur adipisci voluptas, labore vel fugiat. Veritatis tempora sint aliquam tempore quos dolorem. Cupiditate illo neque facilis molestiae deserunt magnam veniam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci labore voluptate praesentium possimus consequatur ratione aut quisquam sint sapiente nisi sequi, repudiandae aspernatur mollitia. Similique minima animi quisquam nulla dicta.</p>
         </div>
     </div>
 </div>
-<!--
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mDPi67e5ayE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
--->

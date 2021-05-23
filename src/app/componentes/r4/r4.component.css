@@ -1,7 +1,3 @@
-*{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .tabla{
     border-collapse: collapse;
     width: 100%;
@@ -26,4 +22,10 @@ td img {
 .filas:hover {
     background-color: blueviolet;
     cursor: pointer;
+}
+
+@media (max-width: 992px){
+    .tabla{
+        font-size: 12px;
+    }
 }

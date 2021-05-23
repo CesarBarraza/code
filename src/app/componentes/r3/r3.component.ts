@@ -1,4 +1,4 @@
-import { APP_BOOTSTRAP_LISTENER, Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-r3',
