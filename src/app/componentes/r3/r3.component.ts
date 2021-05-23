@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { APP_BOOTSTRAP_LISTENER, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-r3',
@@ -10,6 +10,16 @@ export class R3Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  abrirVideo(){
+    let abrir= document.getElementById('mostrar-cerrar')
+    abrir.style.display = 'block'
+  } 
+
+  cerrarVideo(){
+    let cerrar = document.getElementById('mostrar-cerrar');
+    cerrar.style.display = 'none'
   }
 
 }

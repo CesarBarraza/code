@@ -2,6 +2,15 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.prueba{
+    border: #000 1px solid;
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    background-color: chocolate;
+    display: none;
+}
+
 .logo{
     text-align: right;
     margin-right: 80px;
@@ -19,6 +28,7 @@
     grid-column: 1 / 5;
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 
 .contenedor-video .descripcion{
