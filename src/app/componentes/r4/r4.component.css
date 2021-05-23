@@ -1,0 +1,29 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tabla{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+.tabla th {
+    padding: 10px;
+    height: 35px;
+}
+
+tr {
+    border-bottom: #000 1px solid;
+}
+
+td img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.filas:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
