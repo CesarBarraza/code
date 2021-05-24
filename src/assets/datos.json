@@ -7,53 +7,53 @@
     "email": "barraza@gmail.com"
 },
 {
-    "nombre":"Cesar",
+    "nombre":"Agustina",
     "apellido": "Barraza",
-    "direccion": "Jujuy 34",
-    "localidad": "Libertad",
+    "direccion": "Defensa 517",
+    "localidad": "Padua",
     "pais": "Argentina",
-    "email": "barraza@gmail.com"
+    "email": "aguiis@gmail.com"
 },
 {
-    "nombre":"Cesar",
-    "apellido": "Barraza",
-    "direccion": "Jujuy 34",
-    "localidad": "Libertad",
+    "nombre":"Angela",
+    "apellido": "Cardozo",
+    "direccion": "Rivadavia 1512",
+    "localidad": "Padua",
     "pais": "Argentina",
-    "email": "barraza@gmail.com"
+    "email": "angelacar@gmail.com"
 },
 {
-    "nombre":"Cesar",
-    "apellido": "Barraza",
-    "direccion": "Jujuy 34",
+    "nombre":"Emilio",
+    "apellido": "Lencina",
+    "direccion": "Ecuador 1825",
     "localidad": "Libertad",
     "pais": "Argentina",
-    "email": "barraza@gmail.com"
+    "email": "emi_len@gmail.com"
 }
 ,
 {
-    "nombre":"Cesar",
-    "apellido": "Barraza",
-    "direccion": "Jujuy 34",
-    "localidad": "Libertad",
+    "nombre":"Brenda",
+    "apellido": "Paez",
+    "direccion": "Pueyrredon 34",
+    "localidad": "Merlo",
     "pais": "Argentina",
-    "email": "barraza@gmail.com"
+    "email": "brendap@gmail.com"
 }
 ,
 {
-    "nombre":"Cesar",
-    "apellido": "Barraza",
-    "direccion": "Jujuy 34",
-    "localidad": "Libertad",
+    "nombre":"Ariel",
+    "apellido": "Ortega",
+    "direccion": "Salta 185",
+    "localidad": "CABA",
     "pais": "Argentina",
-    "email": "barraza@gmail.com"
+    "email": "arielor@gmail.com"
 }
 ,
 {
-    "nombre":"Cesar",
-    "apellido": "Barraza",
-    "direccion": "Jujuy 34",
-    "localidad": "Libertad",
+    "nombre":"Valentina",
+    "apellido": "Aguirre",
+    "direccion": "Av. Eva Peron 1547",
+    "localidad": "Merlo",
     "pais": "Argentina",
-    "email": "barraza@gmail.com"
+    "email": "valenaguirre@gmail.com"
 }]
