@@ -5,11 +5,12 @@
 .lista-menu{
     list-style: none;
     display: flex;
-    width: 50%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     padding: 15px;
+    justify-content: space-around;
 }
 
 .lista-menu li{
